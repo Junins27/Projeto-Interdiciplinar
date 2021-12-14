@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Título</title>
+        <style>
+        body{
+        background-image: url(signos.jpg);
+            }
+            header {
+                padding: 5px;
+                background-color: black;
+                color: white;
+            }
+            
+            aside {
+                background-color: black;
+                width: 30%;
+                float: left;
+            }
+            
+            nav {
+                background-color:  lightgrey;
+                margin: 5px;
+                font-size:20px;
+                padding-bottom: 76%;
+                padding-top: 12%;
+                 height: 380px
+            }
+            
+            section {
+                background-color: #1E90FF;
+                float: right;
+                width: 70%;
+                color: white;
+                border: 5px;
+            }
+            
+            article {
+                
+                background-color: black;
+                color: white;
+                padding: 5px;
+                margin: 5px;
+                border-style: solid;
+                border-color: darkblue;
+            }
+            
+            footer {
+                height: 15px;
+                border-color: black;
+                border-width: 1px;
+                border-style: solid;
+                clear: both;
+                font-size: 10px;
+                align-content: center;
+            }
+
+
+           #moldura{
+                width: 879px;
+                height: 300px;
+                background-color: black;
+                transition: background-image 2s;
+                align-content: center;
+
+
+            }
+        </style> 
+    </head>
+    <script type="text/javascript">
+
+    function signo(){
+        
+      var dia = parseFloat(document.getElementById("dia").value);
+      var mes = parseFloat(document.getElementById("mes").value);
+      
+      if(mes == 1 && dia <=20)
+        window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/capricornio.html");
+        else if(mes == 2 && dia <=18)
+           window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/aquario.html");
+           else if(mes == 3 && dia <=20)
+             window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/peixes.html");
+            else if(mes == 4 && dia <=20)
+              window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/aries.html");
+             else if(mes == 5 && dia <=20)
+               window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/touro.html");
+              else if(mes == 6 && dia <=20)
+                window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/gemeos.html");
+              else if(mes == 7 && dia <=22)
+                 window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/cancer.html");
+                else if(mes == 8 && dia <=22)
+                  window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/LEAO.html");
+                 else if(mes == 9 && dia <=22)
+                   window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/virgem.html");
+                  else if(mes == 10 && dia <=22)
+                    window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/libra.html");
+                   else if(mes == 11 && dia <=21)
+                     window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/escorpiao.html");
+                    else if(mes == 12 && dia <=21)
+                      window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/sagitario.html");
+                   
+                    else if(mes == 2 && dia >=19)
+                     window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/peixes.html");
+                   else if(mes == 3 && dia >=21)
+                    window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/aries.html");
+                  else if(mes == 4 && dia >=21)
+                   window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/touro.html");
+                 else if(mes == 5 && dia >=21)
+                  window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/gemeos.html");
+                else if(mes == 6 && dia >=21)
+                window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/cancer.html");
+               else if(mes == 7 && dia >=23)
+               window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/LEAO.html");
+              else if(mes == 8 && dia >=23)
+              window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/virgem.html");
+             else if(mes == 9 && dia >=23)
+             window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/libra.html");
+            else if(mes == 10 && dia >=23)
+             window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/escorpiao.html");
+           else if(mes == 11 && dia >=22)
+             window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/sagitario.html");
+           else if(mes == 12 && dia >=22)
+             window.location.assign("file:///C:/Atividade%20Interdiciplinar%20Completa/capricornio.html");
+
+
+ window.localStorage.setItem('mes', 'mes');
+      
+    }
+ </script>
+
+
+
+ <script language="Javascript">
+        function iniciaSlider() {
+  max=12;
+  min=1;
+  fi=min;
+  tr=true
+  carregaFoto("f1.jpg");
+  document.getElementById("moldura").addEventListener("transitionend",fimTr);
+}
+
+       function carregaFoto(foto){
+       document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+
+
+       }
+       function fimTr (){
+        tr=true
+
+       }
+
+
+       function prox() {
+        if(tr){
+          tr=false;
+         fi++;
+         if(fi>max) {
+        fi=min;
+      }
+    }
+         carregaFoto("f"+fi+".jpg");
+       }
+
+
+       function ant() {
+        if(tr){
+          tr=false;
+       fi--;
+       if(fi<min) {
+        fi=max;
+      }
+      }
+  carregaFoto("f"+fi+".jpg")
+
+
+       }
+
+ </script>
+    <body onload="iniciaSlider()">
+        <header>SignPedia.com</header>
+        <aside>
+            <nav>
+                 <a href="#"> - O que são signos?</a><br><br>
+                <p>  Os signos foram popularizados no século XX, pois foi quando o filósofo inglês Alan Leo deu mais espaço ao ramo da astrologia. 
+                Basicamente cada signo representa um espaço de atuação dos planetas. Portanto, o ideal é saber as qualidades básicas de todos os signos e descobrir, através do seu Mapa Astral, em quais deles cada planeta está localizado.</p>
+                <a> - Descubra seu signo</a><br><br>
+                <p>Você pode descobrir seu signo colocando a data do seu nascimento ao lado, isso te levará a uma página com informações sobre seu signo.</p>
+                <a> - Lista de signos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/capricornio.html"> - Capricórnio</a>
+                 <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aquario.html">- Aquário</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/peixes.html"> - Peixes</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aries.html"> - Aries</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/touro.html"> - Touro</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/gemeos.html"> - Gemeos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/cancer.html"> - Câncer</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/LEAO.html"> - Leão</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/virgem.html"> - Virgem</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/libra.html"> - Libra</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/escorpiao.html"> - Escorpião</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/sagitario.html"> - Sagitário</a><br>
+            </nav>
+        </aside>
+        <section>
+            <h1>Insira sua data de nascimento e obtenha informações sobre seu signo!</h1>
+            <article>
+              <font size="4.5">Insira o dia do seu nascimento
+  <input id="dia" type="number"> 
+ 
+Insira o mês do seu nascimento
+ <input id="mes" type="number"> <br /></font>
+   <button onclick="signo()">Redirecionar ao Site</button><br><br>
+
+    <font size="4">
+   <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/Idéia%20inicial.html"> Idéia de página inicial</a><br><br>
+   <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/Com%20CSS.html"> Página com CSS</a><br><br>
+   <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/Sem%20CSS.html"> Página sem CSS</a><br><br></font>
+   
+ <div id="moldura"></div>
+              <div align="left">   
+              <input type="button" value="<< Anterior" onclick="ant()"/>
+            </div>
+              <div align="right">
+              <input type="button" value="Próximo >>" onclick="prox()"/>
+            </div>
+
+
+
+
+
+            </article>
+        </section>
+        <footer>
+            © 2021 - ALUNOS IFSC - IDW/ALG & PROG - CAÇADOR, SC
+        </footer>
+    </body>
+</html>
