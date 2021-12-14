@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>AQUARIO</title>
+        <style>
+         body{
+        background-image: url(signos.jpg);
+            }
+            header {
+                padding: 5px;
+                background-color: black;
+                color: white;
+            }
+            
+            aside {
+                background-color: black;
+                width: 30%;
+                float: left;
+            }
+            
+            nav {
+                background-color:  lightgrey;
+                margin: 5px;
+                font-size:20px;
+                padding-bottom: 75%;
+                padding-top: 12%;
+                height: 390px
+            }
+            
+            section {
+                background-color: aliceblue;
+                float: right;
+                width: 70%;
+                color: black;
+                border: 5px;
+            }
+            
+            article {
+                
+                background-color: black;
+                color: white;
+                padding: 5px;
+                margin: 5px;
+                border-style: solid;
+                border-color: grey;
+            }
+            
+            footer {
+                height: 15px;
+                border-color: black;
+                border-width: 1px;
+                border-style: solid;
+                clear: both;
+                font-size: 10px;
+                align-content: center;
+            }
+             #moldura{
+                width: 879px;
+                height: 300px;
+                background-color: black;
+                transition: background-image 2s;
+                align-content: center;
+            }
+        </style> 
+    </head>
+
+
+<script language="Javascript">
+        function iniciaSlider() {
+  max=3;
+  min=1;
+  fi=min;
+  tr=true
+  carregaFoto("ca1.png");
+  document.getElementById("moldura").addEventListener("transitionend",fimTr);
+}
+
+       function carregaFoto(foto){
+       document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+
+
+       }
+       function fimTr (){
+        tr=true
+
+       }
+
+
+       function prox() {
+        if(tr){
+          tr=false;
+         fi++;
+         if(fi>max) {
+        fi=min;
+      }
+    }
+         carregaFoto("ca"+fi+".png");
+       }
+
+
+       function ant() {
+        if(tr){
+          tr=false;
+       fi--;
+       if(fi<min) {
+        fi=max;
+      }
+      }
+  carregaFoto("ca"+fi+".png")
+
+
+       }
+
+ </script>
+
+
+
+
+
+    <body onload="iniciaSlider()">
+        <header>SignPedia.com</header>
+        <aside>
+            <nav>
+              <a href="#"> - O que são signos?</a><br><br>
+                <p>  Os signos foram popularizados no século XX, pois foi quando o filósofo inglês Alan Leo deu mais espaço ao ramo da astrologia. 
+                Basicamente cada signo representa um espaço de atuação dos planetas. Portanto, o ideal é saber as qualidades básicas de todos os signos e descobrir, através do seu Mapa Astral, em quais deles cada planeta está localizado.</p>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/Home%20Page.html#"> - Descubra seu signo</a><br><br>
+                <p>Você pode descobrir seu signo colocando a data do seu nascimento ao lado, isso te levará a uma página com informações sobre seu signo.</p>
+                <a> - Lista de signos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/capricornio.html"> - Capricórnio</a>
+                 <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aquario.html">- Aquário</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/peixes.html"> - Peixes</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aries.html"> - Aries</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/touro.html"> - Touro</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/gemeos.html"> - Gemeos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/cancer.html"> - Câncer</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/LEAO.html"> - Leão</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/virgem.html"> - Virgem</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/libra.html"> - Libra</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/escorpiao.html"> - Escorpião</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/sagitario.html"> - Sagitário</a><br>
+            </nav>
+        </aside> 
+        <section>
+            <h1>Aquário (22/01 a 19/02)</h1><img src="kisspng-computer-icons-aquarius-astrology-symbol-astrologi-aquarius-5ac1bcf8ce9e35.2493523515226462648463.png" width="40px"><img src="kisspng-wind-clip-art-wind-png-transparent-image-5a768a7bab16c9.8978563615177181397008.png" width="40px">
+            <article>
+            	<p>  -Os aquarianos são amantes dos desafios e da liberdade!
+            	</p>
+            	<p>
+            		*CARACTERÍSTICAS POSITIVAS DOS AQUARIANOS: 
+            	</p>
+            	<ol>
+            		<li>Idealistas e inventivos;</li>
+                    <li>Costumam ser tranquilos e justos;</li>
+                    <li>Gostam de transformar e não se acomodam nas situações.</li>
+            	</ol>
+            	<p>
+            		*CARACTERÍSTICAS NEGATIVAS DOS AQUARIANOS:</p>
+            	<ol>
+            		<li>Podem ser individualistas e desapegados;</li>
+                    <li>Muitos consideram os aquarianos frios e sem coração;</li>
+                    <li>Tendem a ser distantes, rebeldes e imprevisíveis.</li>
+            	</ol>
+
+    <div id="moldura"></div>
+              <div align="left">   
+              <input type="button" value="<< Anterior" onclick="ant()"/>
+            </div>
+              <div align="right">
+              <input type="button" value="Próximo >>" onclick="prox()"/>
+            </div>
+            </article>
+
+        </section>
+        <footer>
+            ©️ 2021 - ALUNOS IFSC - IDW/ALG & PROG - CAÇADOR, SC
+        </footer>
+    </body>
+</html>
