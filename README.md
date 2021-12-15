@@ -37,7 +37,7 @@ Tabela de conteúdos
 
 # Status do Projeto
 
-<p>O projeto se encontrará completamente finalizado após o fim de sua apresentação diante dos professores na Quinta-Feira dia 15 de Dezembro de 2021</p>
+<p>O projeto se encontrará completamente finalizado após o fim de sua apresentação diante dos professores na Quinta-Feira dia 16 de Dezembro de 2021</p>
 
 # Features
 
