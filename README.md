@@ -5,7 +5,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Instalação](#instalacao)
+   * [Instalação](#instalação)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
    * [Programas Utilizados](#programas-utilizados)
