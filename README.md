@@ -57,6 +57,6 @@ Osmar Ribeiro dos Santos Junior
 
 # Licenciamento
 
-Os componentes utilizados no projeto são de livre acesso e portanto, os autores não tem responsabilidade por sobre qualquer utilização dos mesmos códigos fontes por terceiros. Licença MIT contida no arquivo Licence.
+Os componentes utilizados no projeto são de livre acesso e portanto, os autores não tem responsabilidade por sobre qualquer utilização dos mesmos códigos fontes por terceiros. Licença MIT contida no arquivo Licence no main branch do projeto.
 
 
