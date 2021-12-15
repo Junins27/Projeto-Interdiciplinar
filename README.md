@@ -11,6 +11,8 @@ Tabela de conteúdos
    * [Programas Utilizados](#programas-utilizados)
    * [Status do Projeto](#status-do-projeto)
    * [Features](#Features)
+   * [Autores](#Autores)
+   * [Licenciamento](#Licenciamento)
 <!--te-->
 # Sobre 
 
@@ -45,12 +47,16 @@ Tabela de conteúdos
 
 # Autores
 
-Os autores do projeto são:
-Osmar Ribeiro dos Santos Junior
-Jonyfher Nonato 
-Pedro Fontanez Bravo
+<h2>Os autores do projeto são:</h2>
+Osmar Ribeiro dos Santos Junior<br><br>
+Jonyfher Nonato<br><br> 
+Pedro Fontanez Bravo<br>
 
-Autor do Readme.md:
+<h2>Autor do Readme.md:</h2><br>
 Osmar Ribeiro dos Santos Junior
+
+# Licenciamento
+
+Os componentes utilizados no projeto são de livre acesso e portanto, os autores não tem responsabilidade por sobre qualquer utilização dos mesmos códigos fontes por terceiros. Licença MIT contida no arquivo Licence.
 
 
