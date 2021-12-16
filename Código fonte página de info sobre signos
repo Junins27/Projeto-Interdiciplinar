@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>O que são signos?</title>
+        <style>
+         body{
+        background-image: url(signos.jpg);
+            }
+            header {
+                padding: 5px;
+                background-color: black;
+                color: white;
+            }
+            
+            aside {
+                background-color: black;
+                width: 30%;
+                float: left;
+            }
+            
+            nav {
+                background-color:  lightgrey;
+                margin: 5px;
+                font-size:20px;
+                padding-bottom: 76.2%;
+                padding-top: 12%;
+                height: 1687px
+            }
+            
+            section {
+                background-color: burlywood;
+                float: right;
+                width: 70%;
+                color: white;
+                border: 5px;
+            }
+            
+            article {
+                
+                background-color: black;
+                color: white;
+                padding: 5px;
+                margin: 5px;
+                border-style: solid;
+                border-color: saddlebrown;
+            }
+            
+            footer {
+                height: 15px;
+                border-color: black;
+                border-width: 1px;
+                border-style: solid;
+                clear: both;
+                font-size: 10px;
+                align-content: center;
+            }
+
+           
+        </style>
+        
+    </head>
+    <body onload="iniciaSlider()">
+        <header>SignPedia.com</header>
+        <aside>
+            <nav>
+                <a> - O que são signos?</a><br><br>
+                <p>  Os signos foram popularizados no século XX, pois foi quando o filósofo inglês Alan Leo deu mais espaço ao ramo da astrologia. 
+                Basicamente cada signo representa um espaço de atuação dos planetas. Portanto, o ideal é saber as qualidades básicas de todos os signos e descobrir, através do seu Mapa Astral, em quais deles cada planeta está localizado.</p>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/Home%20Page.html#"> - Descubra seu signo</a><br><br>
+                <p>Você pode descobrir seu signo colocando a data do seu nascimento ao lado, isso te levará a uma página com informações sobre seu signo.</p>
+                <a> - Lista de signos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/capricornio.html"> - Capricórnio</a>
+                 <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aquario.html">- Aquário</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/peixes.html"> - Peixes</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/aries.html"> - Aries</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/touro.html"> - Touro</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/gemeos.html"> - Gemeos</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/cancer.html"> - Câncer</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/LEAO.html"> - Leão</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/virgem.html"> - Virgem</a><br><br>
+                <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/libra.html"> - Libra</a>
+                  <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/escorpiao.html"> - Escorpião</a>
+                    <a href="file:///C:/Atividade%20Interdiciplinar%20Completa/sagitario.html"> - Sagitário</a><br><br>
+                    <img src="alanleo1.jpeg" align="center">
+                    <p><font size="3">*Esse é Alan Leo, conhecido como pai da astrologia</p></font>
+                    <img src="alanleo2.jpg" align="center">
+                    <p><font size="3">*E esse é um de seus livros sobre astrologia</font></p>
+            </nav>
+        </aside>
+        <section>
+            <h1>O que são Signos?</h1>
+            <article>
+               <img src="oqsaosignos.jpg" width="870" height="400">
+                <p><font size="5">
+O zodíaco, de acordo com a astronomia - ciência natural que estuda os astros e corpos celestes - é uma zona da esfera celeste, que se prolonga a 8,5º de uma a outra parte da eclíptica, e na qual se movem o Sol, a Lua e todos os outros grandes planetas e planetoides.<br><br>
+Já a astrologia - pseudociência que alega que os corpos celestes têm influência sobre a personalidade e vida das pessoas na Terra - divide a mesma zona da esfera cósmica em doze partes, cada uma com 30º de longitude, conhecidas por "signos do zodíaco".<br><br>
+Os signos levam o nome das doze constelações que estão na linha do zodíaco, há mais de 2 mil anos: Áries, Touro, Gêmeos, Câncer, Leão, Virgem, Libra, Escorpião, Sagitário, Capricórnio, Aquário e Peixes.<br><br>
+O signo do zodíaco de uma pessoa é definindo a partir da observação do Sol (signo solar), verificando em qual constelação ele está localizado no momento do nascimento do indivíduo, por exemplo.<br><br>
+De acordo com a astrologia, os signos do zodíaco têm o poder de definir a personalidade ou influenciar o curso da vida de uma pessoa.</font>
+                </p>
+                <h2>Embate entre astrologia e astronomia</h2>
+                <img src="astrox.jpg" width="870" height="400">
+
+                <p><font size="5">
+                  Foi no segundo milênio antes de Cristo, na Babilônia, que surgiu o que daria origem à astrologia e ao estudo matemático dos astros. Os sacerdotes babilônicos acreditavam que seus deuses se comunicavam por meio de presságios no fígado de ovelhas e no movimento dos planetas.<br><br>
+                  Baseada em princípios ocultistas, a astrologia está para a astronomia assim como a alquimia está para a química. Era plenamente aceita entre eruditos da Europa medieval e reis costumavam ter seus próprios astrólogos. Médicos acreditavam que a posição da Lua determinava dias bons ou ruins para fazer sangria nos pacientes, e grandes astrônomos, como Galileu e Kepler, faziam horóscopos. Isso só começou a mudar com o nascimento da ciência moderna, no século 17, quando a especialidade foi retirada das academias europeias. “A astrologia certamente não desapareceu e ainda tem significativa audiência popular, mas rapidamente perdeu credibilidade e prestígio”, diz Shank.<br><br>
+                  E foi assim, com o advento da era da razão, que astrônomos e astrólogos cortaram relações. Diana Gama acredita que o apelo astrológico surge da necessidade de ter uma justificativa para tudo. “É muito mais fácil acreditar que você perdeu seu emprego porque a Lua está no quadrante oeste acima de Saturno no equinócio de primavera do que aceitar a vida como ela é.”
+                  
+                </font>
+                </p>
+              
+              
+            </article>
+        </section>
+        <footer>
+            ©️ 2021 - ALUNOS IFSC - IDW/ALG & PROG - CAÇADOR, SC
+        </footer>
+    </body>
+</html>
