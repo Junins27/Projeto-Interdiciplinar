@@ -16,7 +16,7 @@ Tabela de conteúdos
 <!--te-->
 # Sobre 
 
-<p> Projeto criado no segundo semestre de 2021, no curso de Sistemas de Informação pelo Instituto Federal de Santa Catarina, no munícipio de Caçador<p>
+<p> Projeto criado no segundo semestre de 2021, no curso de Sistemas de Informação pelo Instituto Federal de Santa Catarina, no munícipio de Caçador. A atividade teve 5 versões incluindo a versão BETA, e se dando por finalizada na versão 1.4.<p>
   
 # Instalação
  
