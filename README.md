@@ -43,7 +43,7 @@ Tabela de conteúdos
 
 <p>(x) Interface com alteração de imagens</p>
 <p>(x) Questionário que leva a 12 outras páginas</p>
-<p>( ) LocalStorage armazenando as datas anteriormente inseridas</p>
+<p>(x) LocalStorage armazenando as datas anteriormente inseridas</p>
 
 # Autores
 
